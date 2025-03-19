@@ -16,11 +16,14 @@
     <a href="https://www.mmlab-ntu.com/person/ccloy/index.html"<strong>Chen Change Loy</strong></a>
   </p>
   <p align="center">
+    <a href="https://dof-gaussian.github.io/"<strong>Project Page</strong></a> |<a href="https://arxiv.org/abs/2503.00746"<strong>Arxiv</strong></a> |<a href="https://www.youtube.com/watch?v=-kaWXVW0TCg"<strong>Video</strong></a> 
+  </p>
+  <p align="center">
     CVPR 2025
   </p>
 </p>
 
-### [Project Page](https://dof-gaussian.github.io/) | [Arxiv](https://arxiv.org/abs/2503.00746) | [Video](https://www.youtube.com/watch?v=-kaWXVW0TCg) 
+### 
 
 (Coming soon)
 
