@@ -13,7 +13,7 @@
     &nbsp;&nbsp;
     <a href="https://weivision.github.io/"><strong>Wei Li<sep>✉</sep></strong></a>
     &nbsp;&nbsp;
-    <a href=>"https://www.mmlab-ntu.com/person/ccloy/index.html"<strong>Chen Change Loy</strong></a>
+    <a href="https://www.mmlab-ntu.com/person/ccloy/index.html"<strong>Chen Change Loy</strong></a>
   </p>
   <p align="center">
     <sep>✉</sep>Corresponding Autor
