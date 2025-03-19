@@ -16,7 +16,7 @@
     <a href="https://www.mmlab-ntu.com/person/ccloy/index.html"<strong>Chen Change Loy</strong></a>
   </p>
   <p align="center">
-    <sep>✉</sep>Corresponding Autor
+    CVPR 2025
   </p>
 </p>
 
