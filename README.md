@@ -1,5 +1,24 @@
-# DoF-Gaussian(Coming Soon)
-(CVPR 2025) DoF-Gaussian: Controllable Depth-of-Field for 3D Gaussian Splatting
+<p align="center">
+  <h1 align="center">DoF-Gaussian: Controllable Depth-of-Field for 3D Gaussian Splatting</h1>
+  <p align="center">
+    <a href="https://leoshen917.github.io/"><strong>Liao Shen</strong></a>
+    &nbsp;&nbsp;
+    <a href="https://tqtqliu.github.io/"><strong>Tianqi Liu</strong></a>
+    &nbsp;&nbsp;
+    <a href="https://huiqiang-sun.github.io/"><strong>Huiqiang Sun</strong></a>
+    &nbsp;&nbsp;
+    <a href="https://lijia7.github.io"><strong>Jiaqi Li</strong></a>
+    &nbsp;&nbsp;
+    <a href="http://english.aia.hust.edu.cn/info/1085/1528.htm"><strong>Zhiguo Cao</strong></a>
+    &nbsp;&nbsp;
+    <a href="https://weivision.github.io/"><strong>Wei Li<sep>✉</sep></strong></a>
+    &nbsp;&nbsp;
+    <a href=>"https://www.mmlab-ntu.com/person/ccloy/index.html"<strong>Chen Change Loy</strong></a>
+  </p>
+  <p align="center">
+    <sep>✉</sep>Corresponding Autor
+  </p>
+</p>
 
 # Citation
 If you find our work useful in your research, please consider to cite our paper:
