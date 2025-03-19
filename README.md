@@ -19,7 +19,9 @@
     CVPR 2025
   </p>
 </p>
+
 ### [Project Page](https://dof-gaussian.github.io/) | [Arxiv](https://arxiv.org/abs/2503.00746) | [Video](https://www.youtube.com/watch?v=-kaWXVW0TCg) 
+
 (Coming soon)
 
 # Citation
