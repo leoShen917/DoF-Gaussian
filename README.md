@@ -42,6 +42,43 @@ pip install submodules/diff-gaussian-rasterization
 pip install -r requirements.txt
 ```
 
+- We use COLMAP to calculate poses and sparse depths. However, original COLMAP does not have fusion mask for each view. Thus, we add masks to COLMAP and denote it as a submodule. Please follow https://colmap.github.io/install.html to install COLMAP in `./colmap` folder (Note that do not cover colmap folder with the original version).
+
+### Preparation
+
+Please download datasets at [here](https://drive.google.com/drive/folders/1qXSgGWUbgIfKdNK16AytEHvxO0lRZ0K5). This dataset is originally produced by [Deblur-NeRF](https://github.com/limacv/Deblur-NeRF). You can organize your own dataset as:
+
+```
+real_defocus_blur
+│
+└─── defocuscupcake
+│   │
+|   └─── sparse
+│   │
+|   └─── images_4
+│   │
+|   └─── images
+│   │
+|   └─── hold = 8
+│ 
+└─── defocuscups
+│   │
+......
+
+```
+
+### Training
+
+
+
+### Evaluation
+
+
+
+### Applications
+
+(coming soon)
+
 ### Acknowledge
 
 We thank the authors of [Gaussian Splatting](), [Mip-Splatting](https://github.com/graphdeco-inria/gaussian-splatting/tree/main), [RadeGS](https://github.com/BaowenZ/RaDe-GS/tree/main), and the repos for their great works.
