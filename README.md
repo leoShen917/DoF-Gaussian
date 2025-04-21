@@ -73,7 +73,11 @@ real_defocus_blur
 
 ### Training
 
+```
+python train.py -s <path to dataset> -m <output folder> --eval -r <downsample_res> --llffhold <llffhold>
 
+// ex. python train.py -s real_defocus_blur/defocuscupcake -m output/defocuscupcake --eval -r 4 --llffhold 8
+```
 
 ### Evaluation
 
