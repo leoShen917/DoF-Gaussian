@@ -24,6 +24,10 @@
 </p>
 
 
+<div align="center">
+        <img src="./assets/teaser1.png">
+  </div>
+
 ### Install dependencies.
 
 1. create an  environment
