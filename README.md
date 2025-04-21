@@ -22,12 +22,29 @@
     CVPR 2025
   </p>
 </p>
+### Install dependencies.
 
-### 
+1. create an  environment
 
-(Coming soon)
+```
+conda activate -n dofgs python=3.9
+conda activate dofgs
+```
 
-# Citation
+2. install pytorch and other dependencies.
+
+```
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+pip install -r requirements.txt
+pip install submodules/diff-gaussian-rasterization
+pip install -r requirements.txt
+```
+
+### Acknowledge
+
+We thank the authors of [Gaussian Splatting](), [Mip-Splatting](https://github.com/graphdeco-inria/gaussian-splatting/tree/main), [RadeGS](https://github.com/BaowenZ/RaDe-GS/tree/main), and the repos for their great works.
+
+### Citation
 If you find our work useful in your research, please consider to cite our paper:
 
 ```
