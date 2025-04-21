@@ -30,7 +30,7 @@
 
 ### Install dependencies.
 
-1. create an  environment
+1. Clone the repository and create an  environment.
 
 ```
 conda activate -n dofgs python=3.9
@@ -87,7 +87,13 @@ python train.py -s <path to dataset> -m <output folder> --eval -r <downsample_re
 
 ### Evaluation
 
+To calculate metrics, namely PSNR, SSIM, and LPIPS, we could execute the following code:
 
+```
+python metric.py -m <output folder> -r <downsample_res>
+```
+
+If testing on Deblur-NeRF datasets, we should also add `-t deblur-nerf` at the end of the code chunk above.
 
 ### Applications
 
