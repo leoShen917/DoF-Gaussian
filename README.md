@@ -71,6 +71,12 @@ real_defocus_blur
 
 ```
 
+**Run Colmap**
+
+```
+sh colmap.sh <path to dataset>
+```
+
 ### Training
 
 ```
