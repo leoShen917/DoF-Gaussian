@@ -1,0 +1,3 @@
+[submodule "colmap"]
+	path = colmap
+	url = https://github.com/B1ueber2y/colmap.git
