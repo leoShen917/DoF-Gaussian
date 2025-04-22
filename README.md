@@ -33,6 +33,7 @@
 1. Clone the repository and create an  environment.
 
 ```
+git clone https://github.com/leoShen917/DoF-Gaussian.git --recursive 
 conda activate -n dofgs python=3.9
 conda activate dofgs
 ```
