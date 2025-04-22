@@ -101,7 +101,7 @@ If testing on Deblur-NeRF datasets, we should also add `-t deblur-nerf` at the e
 
 ### Acknowledge
 
-We thank the authors of [Gaussian Splatting](), [Mip-Splatting](https://github.com/graphdeco-inria/gaussian-splatting/tree/main), [RadeGS](https://github.com/BaowenZ/RaDe-GS/tree/main), and the repos for their great works.
+We thank the authors of [Gaussian Splatting](), [Mip-Splatting](https://github.com/graphdeco-inria/gaussian-splatting/tree/main), [RadeGS](https://github.com/BaowenZ/RaDe-GS/tree/main), [DoF-NeRF](https://github.com/zijinwuzijin/DoF-NeRF), and the repos for their great works.
 
 ### Citation
 If you find our work useful in your research, please consider to cite our paper:
