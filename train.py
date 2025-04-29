@@ -66,7 +66,6 @@ def training(dataset, opt, pipe, testing_iterations, saving_iterations, checkpoi
     d_priors = align_scales(d_priors, colmap_depths, colmap_masks)
     d_priors = torch.tensor(d_priors).to('cuda')
     os.makedirs(os.path.join(dataset.model_path,"error"),exist_ok=True)
-    psnr_best = 0
     for iteration in range(first_iter, opt.iterations + 1):        
         if network_gui.conn == None:
             network_gui.try_connect()
@@ -186,11 +185,6 @@ def training(dataset, opt, pipe, testing_iterations, saving_iterations, checkpoi
             
             # Log and save
             psnr = training_report(tb_writer, iteration, Ll1_render, loss, distortion_loss, depth_normal_loss, l1_loss, iter_start.elapsed_time(iter_end), testing_iterations, scene, render, (pipe, background),gaussians.get_K_bokeh,gaussians.get_disp_focus)
-            if psnr > psnr_best:
-                psnr_best = psnr
-                print("\n[ITER {}] Saving Best Gaussians".format(iteration))
-                scene.save_best(psnr_best, iteration)
-                torch.save((gaussians.capture(), 30000), scene.model_path + "/point_cloud/iter_best/" + str(30000) + ".pth")
                 
             if (iteration in saving_iterations):
                 print("\n[ITER {}] Saving Gaussians".format(iteration))
