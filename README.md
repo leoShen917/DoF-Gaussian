@@ -48,6 +48,9 @@ pip install -r requirements.txt
 ```
 
 - We use COLMAP to calculate poses and sparse depths. However, original COLMAP does not have fusion mask for each view. Thus, we add masks to COLMAP and denote it as a submodule. Please follow https://colmap.github.io/install.html to install COLMAP in `./colmap` folder (Note that do not cover colmap folder with the original version).
+- Considering that the COLMAP repository linked to seems to be missing some of the required files, I've uploaded a version on Baidu disk.
+  链接：https://pan.baidu.com/s/1mjlHwC4O6FrekbNguDaMDQ 
+  提取码：2mi8
 
 ### Preparation
 
